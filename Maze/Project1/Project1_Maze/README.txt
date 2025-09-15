@@ -1,0 +1,9 @@
+Grant J Tatge
+008653704
+https://github.com/GrantTatge/CS315
+
+I worked with several of my classmates on a handful of different parts of the project; in particular a decent number of the first methods I wrote shared names with Burke N's, who I started on the project with. I also took inspiration with him to use enums for identifying different parts of the maze board, and use a vector of cells to identify adjacent cells. However, all the code is code that I wrote myself. I did not use AI for anything in this assignment (and frankly, I probably never will).
+
+Other than the given algorithm, I tried to make an attempt to make my code as readable as possible, which I generally don't do a great job at. I decided to have a helper function that returns a boolean value and returns true if an adjacent cell is a potential part of the solution, as well as a helper function that uses the same functionality to return that potential cell. Each cell corresponds to an Enum value: PATH, WALL, SEEN, SOLVED, or ENDPOINT. The starting cell is labelled as SEEN, and the target cell is labelled as ENDPOINT. Since I consistently had to access this value at any given point in the board, I decided to write a helper function to do so; for similar reasons, I implemented a method to return an adjacent cell, by adding the cell at the top of the stack and the relevant "move" cell together. I also decided to make isInBounds its own method, since it is used in both adjacency methods.  
+
+The given input board worked on both my end and on Blue. I also tried editing it a few different ways with vi to ensure that it works if I block the path or change anything about it.
