@@ -1,0 +1,10 @@
+Grant J Tatge
+008653704
+https://github.com/GrantTatge/CS315
+
+I talked to several of my classmates about the project, but I didn't get a chance to work on it with them this time.
+They did remind me that I can use member() when we were talking about it, so a few functions that should do that don't.
+
+The design is exactly as it was asked to be. I did write test functions for each function in my main.cpp, but I know that's not going to be used..
+
+I unfortunately did not get around to finishing list_union() or subset(). Other than that, everything works on my end and on Blue.
